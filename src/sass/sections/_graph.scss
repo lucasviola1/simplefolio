@@ -1,0 +1,72 @@
+.skillsContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 0 3em;
+  }
+  
+  .skillsContainer h1 {
+    color: rgb(160, 160, 160);
+    font-size: 5em;
+    font-weight: 900;
+    text-align: center;
+  }
+  
+  .row {
+    display: flex;
+    margin-bottom: 1.25vw;
+  }
+  
+  .skill {
+    text-align: right;
+    width: 20%;
+    padding-right: 1em;
+  }
+  
+  .bar {
+    background-image: linear-gradient(
+      135deg,
+      $primary-color 0%,
+      $secondary-color 100%
+    );
+    border-radius: 1em;
+  }
+  
+  #htmlBar {
+    width: 67%;
+  }
+  
+  #cssBar {
+    width: 63%;
+  }
+  
+  #bootstrapBar {
+    width: 42%;
+  }
+  
+  #jsBar {
+    width: 25%;
+  }
+  
+  #jQueryBar {
+    width: 35%;
+  }
+  
+  #wpBar {
+    width: 30%;
+  }
+  
+  #gitBar {
+    width: 15%;
+  }
+  
+  #photoBar {
+    width: 64%;
+  }
+  
+  #illBar {
+    width: 34%;
+  }
+  
+  #lrBar {
+    width: 20%;
+  }

@@ -16,3 +16,95 @@
 @import "./sass/sections/contact";
 @import "./sass/sections/hero";
 @import "./sass/sections/projects";
+@import "./sass/sections/graph";
+
+input[type=checkbox] {
+  background-color: #f0f0f0;
+  position: absolute;
+  visibility: hidden;
+}
+
+.chkbxlbl {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 100px;
+    height: 50px;
+    background: grey;
+    display: block;
+    border-radius: 100px;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+.lblLanguage{
+  width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 100px;
+    position: absolute;
+    right: 11rem;
+    top: 2.3rem;
+    font-size:large;
+    font-weight: bold;
+    color: gray;
+}
+.chkbxlbl:after {
+    content: '';
+    position: absolute;
+    top: 2.5px;
+    left: 2.5px;
+    right: 2.5px;
+    width: 45px;
+    height: 45px;
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
+  }
+
+  input:checked + .chkbxlbl {
+    background-image: linear-gradient(
+      135deg,
+      $primary-color 0%,
+      $secondary-color 100%
+    );
+  }
+  
+  input:checked + .chkbxlbl:after {
+    left: calc(100% - 2.5px);
+    transform: translateX(-100%);
+  }
+
+  .chkbxlbl:active:after {
+    width: 60px;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20rem; /* Full viewport height */
+}
+
+/* Basic styling */
+.form-label {
+    margin-bottom: 5px;
+}
+
+.form-input,
+.form-textarea {
+    width: 40%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+    .form-input,
+    .form-textarea {
+        width: calc(100% - 16px); /* Adjust for padding and border */
+    }
+}

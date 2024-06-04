@@ -65,4 +65,9 @@
       }
     }
   }
+
+  .segmented-control label img {
+    max-width: 30px; /* Adjust as needed */
+    max-height: 20px; /* Adjust as needed */
+}
 }
