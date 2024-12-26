@@ -27,7 +27,7 @@ function toggleLanguage() {
 var jsonPortuguese = {
     "name": "Lucas Viola",
     "ola": "Olá, meu nome é ",
-    "dev": "Sou desenvolvedor Backend.",
+    "dev": "Sou Desenvolvedor de Software.",
     "sobre": "Saiba mais",
     "sobremim": "Sobre mim",
     "descricao": "Desenvolvedor de software apaixonado por tecnologia e ansioso para explorar o mundo.",
@@ -45,10 +45,10 @@ var jsonPortuguese = {
 var jsonEnglish = {
     "name": "Lucas Viola",
     "ola": "Hello, my name is ",
-    "dev": "I'm Backend Developer.",
+    "dev": "I'm a Software Developer.",
     "sobre": "About me",
     "sobremim": "ABOUT ME",
-    "descricao": "Passionate software developer eager to explore the world of technology.",
+    "descricao": "Passionate software developer eager to explore the world.",
     "infoextra": "I enjoy staying active with physical activities and traveling whenever possible.",
     "curriculo": "Resume",
     "habilidades": "SKILLS",
